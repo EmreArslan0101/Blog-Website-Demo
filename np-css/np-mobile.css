@@ -1,0 +1,114 @@
+html{
+    font-size: 10px;
+}
+body{
+    min-width: 320px;
+}
+.fitter{
+    width: 100vw;
+}
+.flxres{
+    flex-direction: column !important;
+}
+.flxresr{
+    flex-direction: row !important;
+}
+.font-xs{
+    font-size: 1.3rem;
+}
+.font-s{
+    font-size: 1.5rem;
+}
+.font-x{
+    font-size: 2.56rem;
+}
+.intrit {
+    line-height: 5rem;
+    font-size: 2rem;
+}
+.nvlinks{
+    flex-wrap: wrap;
+}
+.navlink{
+    font-size: 1.5rem;
+}
+.navdiv{
+    width: 50%;
+    height: 5rem;
+}
+.tbmrgn{
+    margin: 20px;
+}
+.npimg{
+    width: 240px;
+    height: 300px;
+    padding: 0;
+    margin: 0px auto;
+}
+.npp{
+    padding: 20px 0px;
+    margin: 0px auto;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.sch1{
+    font-size: 2rem;
+    text-align: center;
+}
+.artcdiv {
+    flex-direction: column;
+}
+.smthbox{
+    width: 100%;
+    margin: 2rem 0px;
+}
+.isize{
+    font-size: 3rem;
+}
+.mr20{
+    margin: 0px 20px;
+}
+.pjst{
+    text-align: justify;
+}
+.scaph{
+    text-align: center;
+    margin: 2rem 0px;
+}
+.scap .scapoplist .scapop{
+    align-items: center;
+}
+.scapimg{
+    width: 70vw;
+    height: 46.70vw;
+    margin: 0px 0px 2rem 0px;
+}
+.scaptxth{
+    margin-bottom: 1.5rem;
+}
+.scaptxt{
+    text-align: justify;
+}
+.scaprt{
+    margin-top: 1.5rem;
+}
+.contact-form,.contact-social{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.contact-form input, textarea{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.contact-social{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 3.5rem;
+}
+.scl-trpiconbox{
+    width: 100%;
+    margin-bottom: 5px;
+    justify-content: space-around;
+}

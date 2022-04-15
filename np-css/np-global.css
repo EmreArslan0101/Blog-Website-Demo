@@ -1,0 +1,202 @@
+.disflx{
+    display: flex;
+}
+.grybck{
+    background-color: rgb(179, 179, 179);
+}
+.navdiv{
+    display: flex;
+    width: 25%;
+    height: 3rem;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.intr{
+    display: flex;
+    min-height: 4rem;
+    background-color: rgb(42, 165, 42);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+.intrit{
+    list-style-type: none;
+    text-align: center;
+    line-height: 3rem;
+}
+.nvlinks{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.intr, #navbar{
+    padding: 0 auto;
+}
+.navlink{
+   display: inline-block;
+   font-size: 1rem; 
+}
+#nava1{
+    background-color: rgb(0, 102, 255);
+}
+
+#nava2{
+    background-color: rgb(25, 124, 0);
+}
+
+#nava3{
+    background-color: rgb(253, 47, 47);
+}
+
+#nava4{
+    background-color: rgb(255, 238, 0);
+}
+.nav4link{
+    color: black;
+}
+.txtlnkcon{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.tbmrgn{
+    margin: 20px auto;
+}
+.inl-b{
+    display: block;
+}
+.scdiv{
+    display: flex;
+}
+.npimg{
+    width: 320px;
+    height: 400px;
+    margin: 0px;
+}
+.npp{  
+    padding: 0px 0px 0px 20px;
+}
+.sch1{
+    padding-bottom: 30px;
+    font-size: 2rem;
+}
+.schfade:hover{
+    background-color: rgba(22, 187, 30, 0.6);
+}
+.fesrhg{
+    padding: 10px;
+}
+.flxcol{
+    flex-direction: column;
+}
+.flxrow{
+    flex-direction: row;
+}
+.flxres{
+    flex-direction: row !important;
+}
+.flxresr{
+    flex-direction: column !important;
+}
+.artcdiv{
+    display: flex;
+    align-content: space-around;
+}
+.smthbox{
+    display: flex;
+    width: 33%;
+    justify-content: space-evenly;
+    height: 8rem;
+}
+.fixend{
+    display: flex;
+    width: 100%;
+}
+.font-x{
+    font-size: 1.56rem;
+}
+.font-m{
+    font-size: 1.10rem;
+}
+.font-s{
+    font-size: 1rem;
+}
+.font-xs{
+    font-size: 0.75rem;
+}
+.scap{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.scaph{
+    margin: 20px 0px;
+}
+.scapimg{
+    width: 350px;
+    height: 233.5px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.scap .scapoplist .scapop{
+    padding: 20px 0px;
+    line-height: 2.3rem;
+    display: flex;
+    flex-direction: row;
+}
+.scaptxth{
+    margin-bottom: 0.75rem;
+}
+.scaprt{
+    margin-top: 0.75rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+.contact-form,.contact-social{
+    display: flex;
+    width: 50%;
+    margin: 0px auto;
+}
+.contact-form{
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+.contact-form h4, .contact-form label{
+    padding-bottom: 1rem;
+}
+.contact-form label{
+    display: block;
+}
+.contact-form input, textarea{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    resize: none;
+}
+.form-button{
+    display: flex;
+    justify-content: space-around;
+}
+.form-button button{
+    width: 30%;
+    padding: 0.5rem;
+}
+.contact-social{
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.scl-trpiconbox{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
